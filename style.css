@@ -1,0 +1,130 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: 'Open Sans';
+    /* background: #000000; */
+    background-image: url(1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#calculator {
+    margin: auto;
+    margin-top: 5%;
+    /* margin-bottom: 50px; */
+    width: 30%;
+    height: 38rem;
+    /* border-radius: 2%; */
+    background: #ffffff;
+    border: 2px solid rgb(0, 0, 0);
+    /* border: 1px solid #89CFFD; */
+}
+#calculator #top {
+    /* border-top-right-radius: 15px;
+    border-top-left-radius: 15px; */
+    width: 100%;
+    height: 154px;
+    background: #af6888;
+    /* background: linear-gradient(60deg, #F6C6EA 35%, #F6C6EA 100%); */
+}
+#calculator #bottom {
+    /* border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px; */
+    width: 100%;
+    height: 70%;
+    background: #4f8561;
+}
+#calculator #bottom .key-number {
+    cursor: pointer;
+    width: 30%;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+    margin: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+.key-number:hover{
+    box-shadow: inset 0 0 15px #ff0000;
+    background-color: #77aabe;
+    color: rgb(219, 217, 224);
+    border-radius: 30%;
+}
+#calculator #bottom #right-side {
+    float: right;
+    width: 11%;
+    margin-top: 4%;
+    margin-right: 2%;
+    /* padding: 2%; */
+    height: auto;
+    background: #cacaca;
+    border-radius: 2rem;
+}
+#calculator #bottom #left-side {
+    float: right;
+    width: calc(100% - 2%);
+    height: 50px;
+    margin-top: 2%;
+    /* margin-right: 10px; */
+    height: auto;
+    background: #4bafaf;
+    border-radius: 1rem;
+}
+#calculator #bottom #left-side .key-number {
+    width: 23%;
+    margin-left: 2%;
+    margin-right: 8%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    font-size: 20px;
+}
+#calculator #button-equal {
+    background: #b36ca1;
+    /* background: linear-gradient(60deg, #F6C6EA 35%, #F6C6EA 100%); */
+    border-radius: 50%;
+    color: white;
+    margin-bottom: 7px !important;
+}
+#calculator #bottom #right-side .key-number {
+    width: 72%;
+    padding-top: 65%;
+    padding-bottom: 0%;
+    margin: 16% 19% 24% 15%;
+}
+#calculator #bottom #number {
+    width: 79%;
+    height: auto;
+    float: left;
+}
+#calculator #top #formula {
+    /* padding: 20px; */
+    color: #2b704e;
+    float: right;
+    margin-right: 4%;
+    text-align: right;
+    /* width: calc(100% - 40px); */
+    font-size: 2rem;
+    margin-top: 4%;
+}
+#calculator #top #result {
+    float: right;
+    width: calc(100% - 9%);
+    padding: 2%;
+    font-size: 3rem;
+    color: rgb(150, 23, 23);
+}
+#calculator #top #equal-symbol {
+    float: left;
+}
+#calculator #top #equal-value {
+    float: right;
+}
+
+@media only screen and (max-width: 1276px) {
+    #calculator{
+        width: 50%;
+    }
+}
